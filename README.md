@@ -9,5 +9,7 @@ H2 database memo
 
 # bat-Notes
 Restart Explorer
-> taskkill /im explorer.exe /f
-> start "Shell Restarter" /d "%systemroot%" /i /normal explorer.exe
+```bat
+taskkill /im explorer.exe /f
+start "Shell Restarter" /d "%systemroot%" /i /normal explorer.exe
+```
