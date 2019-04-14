@@ -3,6 +3,8 @@ H2 database memo
 
 '''
 java -cp h2*.jar org.h2.tools.Server -tcp -tcpAllowOthers
+
+jdbc:h2:tcp://localhost/~/Desktop/Test/prod
 '''
 
 # bat-Notes
