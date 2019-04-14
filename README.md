@@ -13,3 +13,8 @@ Restart Explorer
 taskkill /im explorer.exe /f
 start "Shell Restarter" /d "%systemroot%" /i /normal explorer.exe
 ```
+
+# jboss-Note
+```
+java -cp picketbox-5.0.3.Final.jar$CLASSPATH org.picketbox.datasource.security.SecureIdentityLoginModule password
+```
