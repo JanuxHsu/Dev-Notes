@@ -18,3 +18,8 @@ start "Shell Restarter" /d "%systemroot%" /i /normal explorer.exe
 ```
 java -cp picketbox-5.0.3.Final.jar$CLASSPATH org.picketbox.datasource.security.SecureIdentityLoginModule password
 ```
+
+```java
+System.setProperty("java.awt.headless", "false");
+System.setProperty("swing.defaultlaf", "javax.swing.plaf.metal.MetalLookAndFeel");
+```
