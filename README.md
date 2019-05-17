@@ -23,3 +23,8 @@ java -cp picketbox-5.0.3.Final.jar$CLASSPATH org.picketbox.datasource.security.S
 System.setProperty("java.awt.headless", "false");
 System.setProperty("swing.defaultlaf", "javax.swing.plaf.metal.MetalLookAndFeel");
 ```
+
+# Gradle-Note
+'''
+compile fileTree(dir: 'libs', include: '*.jar')
+'''
