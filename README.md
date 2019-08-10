@@ -25,9 +25,9 @@ System.setProperty("swing.defaultlaf", "javax.swing.plaf.metal.MetalLookAndFeel"
 ```
 
 # Gradle-Note
-'''
+```
 compile fileTree(dir: 'libs', include: '*.jar')
-'''
+```
 
 
 # ActiveMQ Jolokia API for get all connections
