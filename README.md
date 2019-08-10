@@ -28,3 +28,10 @@ System.setProperty("swing.defaultlaf", "javax.swing.plaf.metal.MetalLookAndFeel"
 '''
 compile fileTree(dir: 'libs', include: '*.jar')
 '''
+
+
+# ActiveMQ Jolokia API for get all connections
+'''
+http://localhost:8161/api/jolokia/read/org.apache.activemq:brokerName=localhost,connectionName=*,connectionViewType=clientId,connector=clientConnectors,connectorName=stomp,type=Broker/
+'''
+
